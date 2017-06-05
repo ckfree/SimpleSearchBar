@@ -1,5 +1,6 @@
 # SimpleSearchBar
-精仿 IOS searchbar效果
+精仿 IOS searchbar效果<br><br>
+![example](https://github.com/ckfree/simplesearchbar/blob/master/device-2017-06-05-150817%20%5B320i%5D.gif)
 
 ## Quick start
 ### Step 1.<br> Add it in your root build.gradle at the end of repositories:
