@@ -182,8 +182,7 @@ public class SimpleSearchBar extends FrameLayout implements View.OnClickListener
     //设定展示View, 添加文本监听
     public void init(View displayView, SearchBarWathcer mSearchBarWathcer) {
         this.displayView = displayView;
-        displayView.setVisibility(GONE);
-
+        if (displayView != null) displayView.setVisibility(GONE);
         this.mSearchBarWathcer = mSearchBarWathcer;
     }
     //*********对外接口 ↑*****************
