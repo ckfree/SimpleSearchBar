@@ -1,4 +1,4 @@
-# simplesearchbar
+# SimpleSearchBar
 精仿 IOS searchbar效果
 
 ## Quick start
@@ -45,7 +45,8 @@
 ### Step 2. 初始化控件：
 ```
      SimpleSearchBar mysearchbar = (SimpleSearchBar) findViewById(R.id.mysearchbar);
-     mysearchbar.init(new View(this), new SimpleSearchBar.SearchBarWathcer() {
+     View displayview = ...//跟随searchbar显示隐藏的view
+     mysearchbar.init(displayview, new SimpleSearchBar.SearchBarWathcer() {
            @Override
            protected void _onTextChanged(String s) {
              //实时获取文字变更
