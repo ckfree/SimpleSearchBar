@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NewMyElement">
+
+        <attr name="mHintText" format="string" />
+        <attr name="mHintColor" format="color" />
+        <attr name="mHintSize" format="dimension" />
+
+        <attr name="mTextColor" format="color" />
+        <attr name="mTextSize" format="dimension" />
+
+        <attr name="mCancelText" format="string" />
+        <attr name="mCancelTextColor" format="color" />
+        <attr name="mCancelTextSize" format="dimension" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/lin_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:background="@drawable/shape_white_r5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/search"
+            android:drawablePadding="5dp"
+            android:hint="@string/default_hint"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@color/item_333333"
+            android:textColorHint="@color/item_999999"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="@string/cancel"
+            android:textColor="@color/item_2db7b5"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fm_enter"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:background="@drawable/shape_white_r5">
+
+        <TextView
+            android:id="@+id/tv_enterhint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/search"
+            android:drawablePadding="5dp"
+            android:text="@string/default_hint"
+            android:textColor="@color/item_999999"
+            android:textSize="13sp" />
+
+    </FrameLayout>
+
+</FrameLayout>
